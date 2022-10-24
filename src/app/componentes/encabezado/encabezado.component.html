@@ -1,0 +1,53 @@
+<section>
+  <h5>Login</h5>
+  <input type="text" name="usuario" value="" placeholder="Usuario">
+  <input type="password" name="Contraseña" value="" placeholder="Contraseña">
+  <input type="submit" name="" value="Ingresar">
+  <p><a href="#">¿Olvidaste tu contraseña?</a></p>
+
+</section>
+
+
+<div class="card mat-card" id="first-card">
+    <div id="profile-background"><img src="https://images.pexels.com/photos/3694871/pexels-photo-3694871.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"> </div>
+    <div id="info" style="padding:16px">
+      <div id="info-img">
+        <img src="https://images.pexels.com/photos/13229765/pexels-photo-13229765.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div> 
+      </div>  
+  
+  
+      <div id="info-data">
+        <div>
+          <h1>{{miPortfolio.name}} </h1>
+          <div id="info-company"> Estudiante</div>
+          <div id="info-contact">
+            <span>Cordoba (Argentina)</span>
+            <span> <a href="#">Informacion de contacto</a></span>
+          </div>
+        </div>
+  
+        <ul id="info-details">
+          <li> 
+            <a href="#">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg">
+              <h2>Universidad Tecnológica Nacional</h2>
+            </a>  
+          </li>
+          <li> 
+            <a href="#">
+              <img src="data:image/png;base64,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">
+              <h2>Argentina Programa</h2>
+            </a>
+          </li>
+        </ul>
+      </div>
+  
+      <div id="info-actions">
+          <button type="button" class="btn btn-primary"> Tengo interés en</button>
+          <button type="button" class="btn btn-light"> Añadir sección</button>
+          <button type="button" class="btn btn-light"> Más</button>
+      </div>
+      <div></div>
+    </div>
+  </div>  <!-- -->
